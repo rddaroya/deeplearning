@@ -76,7 +76,7 @@ class linreg:
 			if old_loss < loss:
 				self.eps = self.eps*0.10
 			else:
-				self.eps = self.eps*1.08
+				self.eps = self.eps*1.20
 
 		print("Function: ", self.x[0], "x^3 + ", self.x[1], "x^2 + ", self.x[2], "x + ", self.x[3])
 
